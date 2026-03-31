@@ -52,6 +52,9 @@ Use this command to output your hostname into your system
 - `echo "nya" > /etc/hostname` // nya is just an example, set any hostname you want :3
 ## 12) Root Password
 - `passwd` [Your new Password]
+## 12.5)
+Ive forgot but i recommend at this part typing
+- `mkinitcpio -p`
 ## 13) Bootloader
 In this tutorial im going with GRUB,to install it use 
 - `pacman -S grub efibootmgr`
