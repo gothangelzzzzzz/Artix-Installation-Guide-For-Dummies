@@ -5,7 +5,7 @@ This is for DINIT ONLY.
 ## Preparation
 # 1) Assuming you have downloaded Artix Linux Base image, log into the OS as root 
 - `user : root` `password: artix`
-You HAVE to log in as root or you won't be able to perform most of the stuff and thus won't be able to install the system.
+You HAVE to log in as root or you won't be able to perform most of the stuff and won't be able to install the system.
 # 2) Set ur your keyboard layout
 An example for the Polish layout `loadkeys pl` 
 # 3) Partitioning
