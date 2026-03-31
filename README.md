@@ -9,7 +9,7 @@ You HAVE to log in as root or u wont be able to perform most of the stuff and wo
 # 2) Set ur your keyboard layout
 An example for Polish layout `loadkeys pl` 
 # 3) Partitioning
-Before that id recommended running `lsblk` to determine what drive u want to install Artix on
+`Before that id recommended running `lsblk` to determine what drive u want to install Artix on`
 To partition your disk from scratch type `cfdisk -z /your/disk`
 Choose GPT for UEFI systems.
 - Create one `1GB EFI Partiton` // 1 GB IS recommended
