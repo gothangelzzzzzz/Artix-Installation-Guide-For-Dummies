@@ -10,7 +10,7 @@ You HAVE to log in as root or you won't be able to perform most of the stuff and
 An example for the Polish layout `loadkeys pl` 
 # 3) Partitioning
 ----
-Before that I'd recommend running `lsblk` to determine on which drive you want to use to install Artix on it
+Before that I'd recommend running `lsblk` to determine which drive you want to use (to install Artix onto it)
 ----
 
 To partition your disk from scratch type `cfdisk -z /dev/yourDisk`
@@ -58,7 +58,7 @@ Use this command to set the hostname in your system
 ## 12) Root Password
 - `passwd` [Your new Password]
 ## 12.5)
-I've forgot but I recommend at this part typing
+I've forgot but at this part I recommend to type in this command: 
 - `mkinitcpio -p` // basically it creates "initial ramdisk", which provides necessary modules to the kernel at startup and more
 ## 13) Bootloader
 In this tutorial I am going to use GRUB, to install it use 
