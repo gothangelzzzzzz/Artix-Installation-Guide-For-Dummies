@@ -33,7 +33,7 @@ Perform this command do basestrap neccesary packages to your new system.
 - `genfstab -U /mnt >> /mnt/etc/fstab`
 ## 8) Chrooting
 Okay, now you are going to work on your freshly installed system
-- `arch-chroot /mnt`
+- `artix-chroot /mnt`
 ## 9) Time Zone
 Symlink Your time zone to he system.
 - `ln -sf /usr/share/zoneinfo/Europe/Warsaw /etc/localtime` // An Example For poland
